@@ -1,0 +1,19 @@
+$ python filter_sort_customers.py --customer_list_file customers.txt --office_location '53.339428, -6.257664' --range 100
+Customers within 100km distance of office at 53.339428, -6.257664
+user id: 4, name: Ian Kehoe
+user id: 5, name: Nora Dempsey
+user id: 6, name: Theresa Enright
+user id: 8, name: Eoin Ahearn
+user id: 11, name: Richard Finnegan
+user id: 12, name: Christina McArdle
+user id: 13, name: Olive Ahearn
+user id: 15, name: Michael Ahearn
+user id: 17, name: Patricia Cahill
+user id: 23, name: Eoin Gallagher
+user id: 24, name: Rose Enright
+user id: 26, name: Stephen McArdle
+user id: 29, name: Oliver Ahearn
+user id: 30, name: Nick Enright
+user id: 31, name: Alan Behan
+user id: 39, name: Lisa Ahearn
+$ 
