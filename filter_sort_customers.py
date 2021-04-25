@@ -94,7 +94,7 @@ def main(argv):
 
 # main program
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s-%(process)d-%(levelname)s-%(message)s')
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s-%(process)d-%(levelname)s-%(message)s')
     try:
         main(sys.argv)
     except ValueError as ve:
