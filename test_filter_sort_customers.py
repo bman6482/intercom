@@ -1,5 +1,4 @@
 import unittest
-from collections import namedtuple
 from filter_sort_customers import Customers
 
 
