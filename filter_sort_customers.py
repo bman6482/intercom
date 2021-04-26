@@ -8,7 +8,7 @@ from collections import namedtuple
 
 
 # Usage: python filter_sort_customers.py --customer_list_file <file name>
-#                                        --office_location 'longitude, latitude ' --range < distance in km >
+#                                        --office_location 'longitude, latitude' --range < distance in km >
 # Class to find customer living within a range from office location
 class Customers:
     # Constructor to initialize customer list
@@ -23,6 +23,7 @@ class Customers:
         for line in lines:
             count += 1
             self.customer_list.append(json.loads(line.strip()))
+        customer_file.close()
 
     # Function to calculate distance between 2 points on earth
     @staticmethod
